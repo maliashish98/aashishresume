@@ -1,0 +1,75 @@
+body{
+    font-family: 'Itim', cursive;
+    align-items: center;
+    background-color: #e9deebc9;
+}
+.container-out{
+    /*border: 20px solid black;*/
+    margin: 0% 13% 0% 13%;
+    background-color:white;
+    box-shadow: 5px 10px 8px 10px #888888;
+    
+}
+.header{
+    background-color: rgb(68, 67, 67);
+    color: white;
+    /*border: 10px solid orange;*/
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+}
+
+.container-main{
+    /*border:10px solid red;*/
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    
+   
+}
+.sidebar{
+  /*  border: 10px solid blue;*/
+    padding: 10px 10px 10px 10px;
+    text-align: right;
+    margin: 0px;
+    
+    
+}
+.main{
+   /* border:10px solid yellow;*/
+    padding: 10px 10px 10px 10px;
+    margin: 3px;
+  
+}
+h1{
+    margin-left: 5%;
+    margin-top: 3%;
+  /*  border:10px solid yellow;*/
+    text-align: right;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 42px;
+}
+.sideup{
+   /* border:10px solid violet;*/
+    padding: 0px 15px 0px ;
+    margin-top: 5px;
+}
+.sideup p {
+    margin: 3px;
+}
+.sideup a{
+    text-decoration: none;
+    color: white;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 2px;
+}
+h3{
+    text-decoration: underline;
+}
+ul{
+    margin: 2px;
+}
